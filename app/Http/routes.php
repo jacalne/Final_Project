@@ -14,20 +14,14 @@
 //use DB;
 use Carbon\Carbon;
 
-Route::get('/', function () {
-    //return view('welcome');
+//Route::get('/', function () {
+  //  return view('welcome');
     
    // $names = DB::select('SELECT * FROM testing');
  // return $names;
-});
+//});
 
 Route::get('/', function () {
- 
- //return Carbon::now();
-    $url =  new \Purl\Url('http://jwage.com');
-     $url->set('scheme', 'https')
-         ->set('path', 'about/me');
-         
-         echo $url->getUrl();
-    
+      return view('login');
 });
+
