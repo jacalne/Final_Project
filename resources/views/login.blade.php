@@ -17,7 +17,9 @@
             
             .formcont {
                  text-align: center;
-                display: table-cell;
+                 float: left;
+                 margin-top: 250px;
+                 margin-left: 250px;
                 vertical-align: middle;
                 background-color: pink;
                 height: 100px;
