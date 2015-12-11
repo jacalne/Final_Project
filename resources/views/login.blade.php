@@ -7,6 +7,7 @@
         <style>
         
                     body {
+                background-color: black;
                 margin: 0;
                 padding: 0;
                 width: 100%;
@@ -18,11 +19,11 @@
             .formcont {
                  text-align: center;
                  float: left;
-                 margin-top: 250px;
-                 margin-left: 250px;
+                 margin-top: 150px;
+                 margin-left: 500px;
                 vertical-align: middle;
                 background-color: pink;
-                height: 100px;
+                height: 105px;
                 width: 300px;
             }
             
@@ -31,16 +32,28 @@
                 text-align: center;
                 display: inline-block;
             }
+            
+            .taas {
+                
+                width: 1364px;
+                height: 100px;
+                background-color: green;
+                
+            }
+            
         </style>
     </head>
     
     <body>
+        
+        <div class="taas"></div>
+        
         <div class="formcont">
             <div class="cont">
-        <form>
+        <form method = "get" action = "">
            <strong>Username: </strong><input type="text" name="username"/> <br><br>
             <strong> Password: </strong><input type="password" name="password"/><br><br>
-            <input type="submit" value="Submit"/>
+            <input type="submit" value="LOG IN"/>
         </form>
         </div>
         </div>
