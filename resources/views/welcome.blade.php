@@ -23,7 +23,6 @@
                 text-align: center;
                 display: table-cell;
                 vertical-align: middle;
-                background-color: red;
             }
 
             .content {

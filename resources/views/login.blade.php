@@ -19,11 +19,13 @@
                  text-align: center;
                 display: table-cell;
                 vertical-align: middle;
-                background-color: green;
+                background-color: pink;
+                height: 100px;
+                width: 300px;
             }
             
             .cont{
-                
+
                 text-align: center;
                 display: inline-block;
             }
@@ -34,8 +36,8 @@
         <div class="formcont">
             <div class="cont">
         <form>
-            Username: <input type="text" name="username"/> <br><br>
-            Password: <input type="password" name="password"/><br><br>
+           <strong>Username: </strong><input type="text" name="username"/> <br><br>
+            <strong> Password: </strong><input type="password" name="password"/><br><br>
             <input type="submit" value="Submit"/>
         </form>
         </div>
