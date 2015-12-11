@@ -34,11 +34,32 @@
             }
             
             .taas {
-                
+                margin-top: 20px;
                 width: 1364px;
-                height: 100px;
+                height: 50px;
                 background-color: green;
                 
+            }
+            
+            .head1{
+
+                margin-left: 20px;
+                
+            }
+            
+            .options{
+                
+                float: right;
+                height: 25px;
+                width: 250px;
+                background-color: white;
+                
+            }
+            
+            .reg{
+                
+                text-align: center;
+
             }
             
         </style>
@@ -46,7 +67,13 @@
     
     <body>
         
-        <div class="taas"></div>
+        <div class="taas">
+           <div class="head1"><u><h1>Attendance Shit</h1></u></div> 
+           <div class="options">
+              <div class="reg"><strong><a href="mailto:">REGISTER</a></strong></div>
+              
+           </div>
+        </div>
         
         <div class="formcont">
             <div class="cont">
